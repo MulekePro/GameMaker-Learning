@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Objetos","folderPath":"folders/Objetos.yy","name":"Objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -24,10 +24,13 @@
   "name":"Start",
   "resources":[
     {"id":{"name":"Objchao","path":"objects/Objchao/Objchao.yy",},},
+    {"id":{"name":"Objinimigo","path":"objects/Objinimigo/Objinimigo.yy",},},
     {"id":{"name":"ObjParede","path":"objects/ObjParede/ObjParede.yy",},},
     {"id":{"name":"ObjPlayer","path":"objects/ObjPlayer/ObjPlayer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"IAEnemy","path":"scripts/IAEnemy/IAEnemy.yy",},},
     {"id":{"name":"PlayerScriptS","path":"scripts/PlayerScriptS/PlayerScriptS.yy",},},
+    {"id":{"name":"Enemy","path":"sprites/Enemy/Enemy.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
     {"id":{"name":"SprtChao","path":"sprites/SprtChao/SprtChao.yy",},},
     {"id":{"name":"sprtParede","path":"sprites/sprtParede/sprtParede.yy",},},

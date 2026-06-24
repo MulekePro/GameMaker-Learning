@@ -17,7 +17,7 @@ function PlayerScriptS()
 
     if (jump && place_meeting(x, y + 1, Objchao)) //aqui verifico se o objeto player esta no chão com place_meeting e se a tecla foi pressionada 
     {
-        vspd = -10; //tamanho do pulo
+        vspd = -20; //tamanho do pulo
     }
 	
 	if (!place_meeting(x, y + vspd, Objchao)) //verifico se o player não esta no chão e vou aumentando a gravidade
